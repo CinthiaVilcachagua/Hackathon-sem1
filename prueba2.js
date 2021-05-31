@@ -84,7 +84,7 @@ console.log(array5)
 
 //EJERCICIO 8
 let mensaje
-login = 'Director'
+
 login == 'Empleado'
    ? (mensaje = 'Hola')
    : login == 'Director'
@@ -92,4 +92,3 @@ login == 'Empleado'
    : login == ''
    ? (mensaje = 'Sin inicio de sesión')
    : (mensaje = '')
-console.log(mensaje)
