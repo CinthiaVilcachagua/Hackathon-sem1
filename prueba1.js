@@ -29,11 +29,7 @@ delete firstObject.name
 
 //EJERCICIO 6
 const isEmpty = (obj) => {
-   if (Object.keys(obj).length == 0) {
-      return true
-   } else {
-      return false
-   }
+   Object.keys(obj).length == 0
 }
 /* let schedule = {}
 console.log(isEmpty(firstObject))
